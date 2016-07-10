@@ -34,7 +34,7 @@ PRODUCT_PACKAGES += \
 
 # OTA dependencies
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.ota.romname=cm-13.0-seedmtk \
+        ro.ota.romname=rr-5.x-seedmtk \
         ro.ota.version=$(shell date +%Y%m%d) \
         ro.ota.manifest=https://ota.msfjarvis.me/rr-5.x-seedmtk.xml
 
