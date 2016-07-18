@@ -1,0 +1,20 @@
+[
+    {
+        "remote":       "MSF",
+        "repository":   "android_device_google_seedmtk",
+        "target_path":  "device/google/seedmtk",
+        "revision":     "pa-marshmallow"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_google_sprout-common",
+        "target_path":  "device/google/sprout-common",
+        "revision":     "du-m"
+    },
+    {
+        "remote":       "MSF",
+        "repository":   "proprietary_vendor_google",
+        "target_path":  "vendor/google",
+        "revision":     "cm-13.0"
+    }
+]
