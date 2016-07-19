@@ -1,8 +1,6 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 PRODUCT_NAME := aosip_seedmtk
 PRODUCT_DEVICE :=seedmtk
