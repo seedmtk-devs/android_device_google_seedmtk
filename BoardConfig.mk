@@ -21,3 +21,4 @@ LOCAL_PATH := device/google/seedmtk
 TARGET_OTA_ASSERT_DEVICE := sprout,Pixelv1_sprout,seedmtk
 
 TARGET_RECOVERY_FSTAB := device/google/seedmtk/rootdir/root/fstab.sprout
+TARGET_GCC_VERSION_EXP := 4.9
