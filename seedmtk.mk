@@ -30,4 +30,4 @@ PRODUCT_COPY_FILES += \
 
 # OTAUpdates
 PRODUCT_PACKAGES += \
-    SlimOTA
+    NexusLaucherTBO
