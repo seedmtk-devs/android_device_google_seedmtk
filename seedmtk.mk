@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/init.sprout.rc:root/init.sprout.rc \
     $(LOCAL_PATH)/rootdir/root/fstab.sprout:root/fstab.sprout
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/NexusLauncherTBO/NexusLauncherPrebuilt.apk:system/app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk \
-    $(LOCAL_PATH)/NexusLauncherTBO/NexusLauncherPrebuilt.apk:system/app/WallpaperPickerGooglePrebuilt/WallpaperPickerGooglePrebuilt.apk
+#NexusLauncher
+PRODUCT_PACKAGES += \
+    NexusLauncher \
+    WallpaperPickerGoogle
