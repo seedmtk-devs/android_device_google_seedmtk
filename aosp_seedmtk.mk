@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=6.0/MRA58M/2280749:user/release-keys PRIVATE_BUILD_DESC="sprout-user 6.0 MRA58M 2280749 release-keys"
 
-PRODUCT_NAME := aosp_seedmtk
+PRODUCT_NAME := krexus_seedmtk
 PRODUCT_DEVICE := seedmtk
 PRODUCT_BRAND := google
 PRODUCT_MANUFACTURER := Google
