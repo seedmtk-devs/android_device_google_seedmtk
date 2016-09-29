@@ -1,2 +1,2 @@
-add_lunch_combo du_seedmtk-userdebug
-add_lunch_combo du_seedmtk-eng
+add_lunch_combo broken_seedmtk-userdebug
+add_lunch_combo broken_seedmtk-eng
