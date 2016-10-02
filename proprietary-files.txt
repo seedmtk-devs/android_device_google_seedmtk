@@ -1,11 +1,9 @@
 app/FMRadioGoogle/FMRadioGoogle.apk
-app/FMRadioTrampoline2/FMRadioTrampoline2.apk
 
 bin/6620_launcher
 bin/bmc156d
 bin/ccci_fsd
 bin/ccci_mdinit
-bin/drvbd
 bin/gsm0710muxd
 bin/lsm303md
 bin/md_ctrl
@@ -33,11 +31,8 @@ etc/wifi/wpa_supplicant_overlay.conf
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/libaudiopolicymanager.so
-vendor/lib/libfrsdk.so
 vendor/lib/libwvdrm_L3.so
 vendor/lib/libwvm.so
-vendor/lib/libWVphoneAPI.so
 vendor/lib/libWVStreamControlAPI_L3.so
 
 xbin/mnld
@@ -88,6 +83,9 @@ lib/libcam_platform.so
 lib/libcam.utils.sensorlistener.so
 lib/libcam_utils.so
 lib/libcam.utils.so
+lib/libcamera_client.so
+lib/libcamera_metadata.so
+lib/libcameraservice.so
 lib/libcurl.so
 lib/libcustom_nvram.so
 lib/libcvsd_mtk.so
@@ -96,7 +94,6 @@ lib/libdrmmtkutil.so
 lib/libfeatureio.so
 lib/libfile_op.so
 lib/libfmcust.so
-lib/libfmjni.so
 lib/libgralloc_extra.so
 lib/libhwm.so
 lib/libimageio_FrmB.so
@@ -118,12 +115,10 @@ lib/libmtk_mmutils.so
 lib/libMtkOmxCore.so
 lib/libMtkOmxVdec.so
 lib/libMtkOmxVenc.so
-lib/libmtkplayer.so
 lib/libnvram_daemon_callback.so
 lib/libnvram_platform.so
 lib/libnvram.so
 lib/librilmtk.so
-lib/libsched.so
 lib/libspeech_enh_lib.so
 lib/libssladp.so
 lib/libstagefrighthw.so
