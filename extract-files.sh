@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#set -e
 export DEVICE=seedmtk
 export VENDOR=google
 
@@ -52,9 +51,9 @@ function extract() {
     done
 }
 
-BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
+BASE=../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*
 
-extract ../../$VENDOR/$DEVICE/proprietary-files.txt $BASE
+extract proprietary-files.txt $BASE
 
 ./setup-makefiles.sh
