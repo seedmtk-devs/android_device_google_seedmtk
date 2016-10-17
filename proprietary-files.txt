@@ -1,20 +1,9 @@
 app/FMRadioGoogle/FMRadioGoogle.apk
 
-bin/6620_launcher
-bin/bmc156d
-bin/ccci_fsd
-bin/ccci_mdinit
-bin/gsm0710muxd
+bin/6620_wmt_concurrency
+bin/6620_wmt_lpbk
+bin/bmgr
 bin/lsm303md
-bin/md_ctrl
-bin/msensord
-bin/mtk_agpsd
-bin/mtkrild
-bin/muxreport
-bin/nvram_daemon
-bin/thermal_manager
-bin/wmt_loader
-bin/wpa_supplicant
 
 etc/mtk_omx_core.cfg
 etc/firmware/catcher_filter_1_wg_n.bin
