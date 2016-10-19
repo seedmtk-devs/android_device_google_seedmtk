@@ -1,0 +1,2 @@
+allow sdcardd system_data_file:dir { setattr };
+allow sdcardd system_data_file:dir { read };

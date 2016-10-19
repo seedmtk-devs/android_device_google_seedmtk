@@ -50,8 +50,11 @@ function extract() {
       fi
     done
 }
-
-BASE=../vendor/$VENDOR/$DEVICE/proprietary
+if [ -z "$CUSTOM_BASE" ]; then
+BASE=$CUSTOM_BASE
+else
+BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
+fi
 rm -rf $BASE/*
 
 extract proprietary-files.txt $BASE
